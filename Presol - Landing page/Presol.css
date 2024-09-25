@@ -1,0 +1,137 @@
+body {
+    padding: 8px 0px;
+}
+
+nav {
+    background-color: #afe233
+}
+
+.bg-div {
+    background-color: #FED8A9
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+        0 4px 8px 0 rgba(0, 0, 0, .05);
+}
+
+
+
+
+
+
+
+/* Background animado */
+.bg-animated {
+    background-image: url(img/patternSite.jpg);
+    /* Adicione aqui o link do seu pattern */
+    background-repeat: repeat;
+    /* Faz o padrão se repetir */
+    animation: moveBG 92122225s linear infinite;
+    /* Animação infinita */
+
+
+}
+
+/* Animação para mover o background verticalmente */
+@keyframes moveBG {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+/* Exemplo de estilização para o conteúdo */
+.content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.Download {
+    background-color: #4f784e;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-text {
+    padding-left: 20px;
+}
+
+.description {
+    display: none;
+}
+
+.description.active {
+    display: block;
+}
+
+/* Estilo customizado para o botão */
+.btn-custom {
+    background-color: #afe233;
+    /* Cor personalizada (OrangeRed) */
+    color: black;
+    /* Cor do texto */
+    border: none;
+    /* Remover a borda */
+    padding: 10px 20px;
+    /* Espaçamento interno do botão */
+    margin-top: 60px;
+    font-size: 40px;
+    /* Tamanho do texto */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    transition: background-color 0.3s ease;
+    /* Transição suave ao passar o mouse */
+    /* Efeito ao passar o mouse */
+}
+
+.btn-custom:hover {
+    background-color: #afe233;
+    /* Alterar a cor no hover */
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: #61dafb;
+}
+.footer a:hover {
+    color: #21a1f1;
+    text-decoration: none;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+}
+.footer .social-icons a:hover {
+    color: #ff8c00;
+}
