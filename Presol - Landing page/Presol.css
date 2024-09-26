@@ -35,7 +35,7 @@ nav {
     /* Adicione aqui o link do seu pattern */
     background-repeat: repeat;
     /* Faz o padrão se repetir */
-    animation: moveBG 92122225s linear infinite;
+    animation: moveBG 26s linear infinite;
     /* Animação infinita */
 
 
@@ -134,4 +134,26 @@ nav {
 }
 .footer .social-icons a:hover {
     color: #ff8c00;
+}
+.alice img{
+    margin-left: 300px;
+    size: 60px;
+}
+.image-text {
+    text-align: center;
+    /* Centraliza texto e imagem */
+}
+
+.image-text img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text p {
+    margin-top: 10px;
+    /* Espaço entre a imagem e o texto */
+}
+.card-text{
+    font-size: 18.5px;
+    padding: 10px;
 }
