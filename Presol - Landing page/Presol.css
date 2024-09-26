@@ -135,9 +135,9 @@ nav {
 .footer .social-icons a:hover {
     color: #ff8c00;
 }
-.alice img{
+.alice img {
+    max-width: 26.5%;
     margin-left: 300px;
-    size: 60px;
 }
 .image-text {
     text-align: center;
@@ -157,3 +157,25 @@ nav {
     font-size: 18.5px;
     padding: 10px;
 }
+
+  #about:before{
+    display: block; 
+    content: " "; 
+    margin-top: -98px; 
+    height: 98px; 
+    visibility: hidden; 
+  }
+  .profile-img {
+    display: block;
+    margin: 1.5rem;
+    border-radius: 50%;
+    border: 1px black solid;
+  }
+  
+  .center-img {
+    display: block;
+    margin: 1.5rem auto;
+  }
+  .fl-right { float: right; }
+
+  .shadow { box-shadow: 0.50rem 0.50rem 0.5rem #222; }
