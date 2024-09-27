@@ -3,7 +3,8 @@ body {
 }
 
 nav {
-    background-color: #afe233
+    background-color: #18A33C;
+
 }
 
 .bg-div {
@@ -31,7 +32,7 @@ nav {
 
 /* Background animado */
 .bg-animated {
-    background-image: url(img/patternSite.jpg);
+    background-image: url(img/fundo\ verde.png);
     /* Adicione aqui o link do seu pattern */
     background-repeat: repeat;
     /* Faz o padrão se repetir */
@@ -179,3 +180,43 @@ nav {
   .fl-right { float: right; }
 
   .shadow { box-shadow: 0.50rem 0.50rem 0.5rem #222; }
+
+
+#conteneur-home{
+    width:100%;
+    background:url(img/fundo\ verde.png) fixed 100% no-repeat;
+    background-size:cover;
+    padding:159.5px 0px 320px 0px;
+    text-align:center;
+  }
+  .home{
+    width:100%;
+  }
+  .home h1{
+    font-weight:100;
+    font-size:50px;
+    color:black;
+    padding:0px 0px 5px 0px;
+  }
+  .home h2{
+    font-weight:100;
+    font-size:30px;
+    color:black;
+    text-transform:uppercase;
+  }
+  .angle-down-icon i {
+    
+  
+color: #afe233; /* Muda a cor para vermelho */
+}
+.angle-down-icon {
+    border: #afe233;
+    
+}
+.jogar img{
+    margin: 10px 5px 0px 0px;
+}
+.collapse {
+    color: white;
+}
+  
