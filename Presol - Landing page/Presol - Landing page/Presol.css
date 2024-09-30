@@ -1,0 +1,228 @@
+body {
+    padding: 8px 0px;
+}
+
+nav {
+    background-color: #18A33C;
+
+}
+
+.bg-div {
+    background-color: #FED8A9
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+        0 4px 8px 0 rgba(0, 0, 0, .05);
+}
+
+/* Background animado */
+.bg-animated {
+    background-image: url(img/fundo\ boneco.png);
+    /* Adicione aqui o link do seu pattern */
+    background-repeat: repeat;
+    /* Faz o padrão se repetir */
+    animation: moveBG 26s linear infinite;
+    /* Animação infinita */
+
+
+}
+
+/* Animação para mover o background verticalmente */
+@keyframes moveBG {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+
+.quadrado img{
+    width: 700px;
+height: 800px;
+top: 140px;
+left: 2025px;
+gap: 0px;
+border-radius: 20px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+/* Exemplo de estilização para o conteúdo */
+.content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.Download {
+    background-color: #4f784e;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-text {
+    padding-left: 20px;
+}
+
+.description {
+    display: none;
+}
+
+.description.active {
+    display: block;
+}
+
+/* Estilo customizado para o botão */
+.btn-custom {
+    background-color: #afe233;
+    /* Cor personalizada (OrangeRed) */
+    color: black;
+    /* Cor do texto */
+    border: none;
+    /* Remover a borda */
+    padding: 10px 20px;
+    /* Espaçamento interno do botão */
+    margin-top: 60px;
+    font-size: 40px;
+    /* Tamanho do texto */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    transition: background-color 0.3s ease;
+    /* Transição suave ao passar o mouse */
+    /* Efeito ao passar o mouse */
+}
+
+.btn-custom:hover {
+    background-color: #afe233;
+    /* Alterar a cor no hover */
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px 0;
+}
+.footer a {
+    color: #61dafb;
+}
+.footer a:hover {
+    color: #21a1f1;
+    text-decoration: none;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+}
+.footer .social-icons a:hover {
+    color: #ff8c00;
+}
+.alice img {
+    max-width: 26.5%;
+    margin-left: 300px;
+}
+.image-text {
+    text-align: center;
+    /* Centraliza texto e imagem */
+}
+
+.image-text img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text p {
+    margin-top: 10px;
+    /* Espaço entre a imagem e o texto */
+}
+.card-text{
+    font-size: 18.5px;
+    padding: 10px;
+}
+
+  #about:before{
+    display: block; 
+    content: " "; 
+    margin-top: -98px; 
+    height: 98px; 
+    visibility: hidden; 
+  }
+  .profile-img {
+    display: block;
+    margin: 1.5rem;
+    border-radius: 50%;
+    border: 1px black solid;
+  }
+  
+  .center-img {
+    display: block;
+    margin: 1.5rem auto;
+  }
+  .fl-right { float: right; }
+
+  .shadow { box-shadow: 0.50rem 0.50rem 0.5rem #222; }
+
+
+#conteneur-home{
+    width:100%;
+  
+    background-size:cover;
+    padding:159.5px 0px 320px 0px;
+    text-align:center;
+  }
+  .home{
+    width:100%;
+  }
+  .home h1{
+    font-weight:100;
+    font-size:50px;
+    color:black;
+    padding:0px 0px 5px 0px;
+  }
+  .home h2{
+    font-weight:100;
+    font-size:30px;
+    color:black;
+    text-transform:uppercase;
+  }
+  .angle-down-icon i {
+    
+  
+color: #afe233; /* Muda a cor para vermelho */
+}
+.angle-down-icon {
+    border: #afe233;
+    
+}
+.jogar img{
+    margin: 10px 5px 0px 0px;
+}
+.collapse {
+    color: white;
+}
+  

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <style>
+        /* --- Global Styles --- */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F7F9FB;
+            color: #333;
+            margin: 0;
+            padding-top: 80px;
+            scroll-behavior: smooth;
+        }
+        nav {
+            background-color: #2D6A4F;
+            padding: 10px 0;
+        }
+        nav .navbar-brand img {
+            width: 80px;
+        }
+        nav .nav-item a {
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav .nav-item a:hover {
+            color: #FFD166;
+        }
+
+        /* --- Header & Hero Section --- */
+        .bg-animated {
+            background-image: url('img/fundo boneco.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            animation: slideBg 40s linear infinite;
+        }
+        @keyframes slideBg {
+            from {
+                background-position: 0 0;
+            }
+            to {
+                background-position: 100% 100%;
+            }
+        }
+
+        /* --- Main Content --- */
+        .containerP {
+            margin-top: 50px;
+            padding: 20px;
+        }
+        .quadrado {
+            background-color: #1D3557;
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .quadrado .titulo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .quadrado .titulo img {
+            margin-right: 15px;
+            width: 100px;
+        }
+        .quadrado .texto {
+            font-size: 2rem;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+        .foto img {
+            width: 350px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 30px;
+            transition: transform 0.3s ease;
+        }
+        .foto img:hover {
+            transform: scale(1.05);
+        }
+
+        /* --- Personagens Section --- */
+        .card {
+            border: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+        }
+        .card-body {
+            background-color: #457B9D;
+            color: white;
+            border-radius: 0 0 10px 10px;
+        }
+
+        /* --- About Section --- */
+        .about-panel {
+            background-color: #F1FAEE;
+            padding: 50px 20px;
+            border-radius: 10px;
+        }
+        .about-panel h1 {
+            font-size: 2.5rem;
+            color: #1D3557;
+            text-align: center;
+        }
+        .about-panel p {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        .about-panel .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #2D6A4F;
+            margin: 20px auto;
+        }
+
+        /* --- Footer --- */
+        .footer {
+            background-color: #2D6A4F;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: #FFD166;
+        }
+
+        /* --- Responsiveness --- */
+        @media (max-width: 768px) {
+            .quadrado {
+                padding: 20px;
+                margin: 20px 0;
+            }
+            .foto img {
+                margin-top: 20px;
+            }
+            .about-panel p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/Presol.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="criação.html">Criação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.nos">Sobre Nós</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-animated">
+
+    <!-- Main Content -->
+    <div class="containerP">
+        <div class="quadrado">
+            <div class="titulo">
+                <img src="img/1844372 1.png" alt="Logo">
+                <div class="texto">Presol(Senac)</div>
+            </div>
+            <div class="foto">
+                <img src="img/Rectangle 3.png" alt="Imagem 1">
+                <img src="img/1486348532-music-play-pause-control-go-arrow_80458 1.png" alt="Imagem 2" style="opacity: 0.5; margin-top: 20px;">
+            </div>
+        </div>
+
+        <!-- Personagens Section -->
+        <section class="container mt-5">
+            <h2 class="text-center mb-4">Personagens</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/AliceFanima 1.png" alt="Personagem 1">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nome do Personagem</h5>
+                            <p class="card-text">Breve história do personagem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/AliceFanima 1.png" alt="Personagem 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nome do Personagem</h5>
+                            <p class="card-text">Breve história do personagem.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/AliceFanima 1.png" alt="Personagem 3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Nome do Personagem</h5>
+                            <p class="card-text">Breve história do personagem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <div class="about-panel">
+            <h1>About Jeff George</h1>
+            <img class="profile-img" src="https://raw.githubusercontent.com/webdevjeffus/fcc-codepen/master/img/profile-jeff-george.jpg" alt="Jeff George">
+            <p>I am a communicator, a teacher, and an innovator...</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Seu Jogo. Todos os direitos reservados.</p>
+            <p>Siga-nos nas redes sociais:</p>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
